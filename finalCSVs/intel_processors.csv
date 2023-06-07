@@ -1,0 +1,110 @@
+model_num,name,launch_date,num_cores,num_threads,base_clock,turbo_clock,cache,TDP(W),link
+G6500,Pentium Gold G6500,2020.0,2,,4.1,,4.0,,pcpricetracker.in/gen/products/2c605f391a2bbe58804a4f9d93c43944
+i5-9400,Core i5-9400,2019.0,6,6.0,2.9,4.1,65.0,9.0,pcpricetracker.in/gen/products/e6c8ee2989f3651a274d9a34950a1815
+i5-1040,Core i5-10400,2020.0,6,12.0,2.9,4.3,65.0,12.0,pcpricetracker.in/gen/products/577fedecd94d772cf2d3626c3d0f5180
+i5-1040,Core i5-10400,2020.0,6,12.0,2.9,4.3,65.0,12.0,pcpricetracker.in/gen/products/577fedecd94d772cf2d3626c3d0f5180
+i5-1140,Core i5-11400,2021.0,6,12.0,2.6,4.4,65.0,12.0,pcpricetracker.in/gen/products/1b21372e7ac27ba912bb585a398f9f90
+i9-1090,Core i9-10900,2020.0,10,20.0,2.8,5.2,65.0,20.0,pcpricetracker.in/gen/products/36ca991315d6e32ddddbaed7f17d13fc
+i7-1070,Core i7-10700,2020.0,8,16.0,2.9,4.8,65.0,16.0,pcpricetracker.in/gen/products/f8f6e43bf12dc425a9d70a60a91a300e
+i9-1190,Core i9-11900,2021.0,8,16.0,2.5,5.2,65.0,16.0,pcpricetracker.in/gen/products/c2d609abb55f57361e06e4ab4bb1014b
+i7-1070,Core i7-10700,2020.0,8,16.0,2.9,4.8,65.0,16.0,pcpricetracker.in/gen/products/f8f6e43bf12dc425a9d70a60a91a300e
+i9-1085,Core i9-10850K,2020.0,10,20.0,3.6,5.2,125.0,20.0,pcpricetracker.in/gen/products/d8e4820cfe1c0cc313cea48b91a985fb
+G5420,Pentium Gold G5420,2019.0,2,,3.8,,4.0,,pcpricetracker.in/gen/products/2cd7fae97423507cd4239f2408d48368
+i3-9100,Core i3-9100,2019.0,4,4.0,3.6,4.2,65.0,6.0,pcpricetracker.in/gen/products/4fa93d4bf595ca690f8b91dd72ff1bb7
+i5-9400F,Core i5-9400F,2019.0,6,6.0,2.9,4.1,65.0,9.0,pcpricetracker.in/gen/products/ba2813b63789b5a084449b6b4a143652
+I7-1270,Core i7-12700K,2021.0,12,20.0,3.6,5.0,125.0,25.0,pcpricetracker.in/gen/products/cbd4a74d8a67a38cd5a71e978237ec43
+i9-9980,Core i9-9980HK,2019.0,8,16.0,2.4,5.0,45.0,16.0,pcpricetracker.in/gen/products/26422d9d56841c7dcda2b67d2eeb160b
+i5-9600KF,Core i5-9600KF,2019.0,6,6.0,3.7,4.6,95.0,9.0,pcpricetracker.in/gen/products/caab6b7ad45dc75913fd2b5bae987d30
+i7-1270,Core i7-12700K,2021.0,12,20.0,3.6,5.0,125.0,25.0,pcpricetracker.in/gen/products/cbd4a74d8a67a38cd5a71e978237ec43
+i3-1010,Core i3-10100Y,2021.0,2,4.0,1.3,3.9,5.0,4.0,pcpricetracker.in/gen/products/07d557d19cd94fd0d1edf488a9e0a6a9
+i7-9700F,Core i7-9700F,2019.0,8,8.0,3.0,4.7,65.0,12.0,pcpricetracker.in/gen/products/ec6ff5ed4e6124c21468a7e9a68b258a
+i9-9900K,Core i9-9900KF,2019.0,8,16.0,3.6,5.0,95.0,16.0,pcpricetracker.in/gen/products/c4772d2a83b57c804d162423d64eca7d
+i7-1170,Core i7-11700,2021.0,8,16.0,2.5,4.9,65.0,16.0,pcpricetracker.in/gen/products/5161aca98609ed01705a74a9b6290813
+i9-1190,Core i9-11900,2021.0,8,16.0,2.5,5.2,65.0,16.0,pcpricetracker.in/gen/products/c2d609abb55f57361e06e4ab4bb1014b
+i5-9400F,Core i5-9400F,2019.0,6,6.0,2.9,4.1,65.0,9.0,pcpricetracker.in/gen/products/ba2813b63789b5a084449b6b4a143652
+i7-1070,Core i7-10700,2020.0,8,16.0,2.9,4.8,65.0,16.0,pcpricetracker.in/gen/products/f8f6e43bf12dc425a9d70a60a91a300e
+I5-1160,Core i5-11600,2021.0,6,12.0,2.8,4.8,65.0,12.0,pcpricetracker.in/gen/products/7f3bc273c457d775b066f3c141f2568c
+i3-9100F,Core i3-9100F,2019.0,4,4.0,3.6,4.2,65.0,6.0,pcpricetracker.in/gen/products/29f4a1dbce8c3895c7998b00dd534a8f
+i9-1190,Core i9-11900,2021.0,8,16.0,2.5,5.2,65.0,16.0,pcpricetracker.in/gen/products/c2d609abb55f57361e06e4ab4bb1014b
+i9-9900KF,Core i9-9900KF,2019.0,8,16.0,3.6,5.0,95.0,16.0,pcpricetracker.in/gen/products/2cf4c9796bb2142b82bfc0264f75837b
+i3-1032,Core i3-10325,2021.0,4,8.0,3.9,4.7,65.0,8.0,pcpricetracker.in/gen/products/23c2a980e3bfab616a29d46e7cdf563b
+i9-1290,Core i9-12900K,2021.0,16,24.0,3.2,5.2,125.0,30.0,pcpricetracker.in/gen/products/e72894b44a69f17425c40ffc7b6e426b
+I9-9900KF,Core i9-9900KF,2019.0,8,16.0,3.6,5.0,95.0,16.0,pcpricetracker.in/gen/products/2cf4c9796bb2142b82bfc0264f75837b
+i7-1170,Core i7-11700,2021.0,8,16.0,2.5,4.9,65.0,16.0,pcpricetracker.in/gen/products/5161aca98609ed01705a74a9b6290813
+i7-9700K,Core i7-9700KF,2019.0,8,8.0,3.6,4.9,95.0,12.0,pcpricetracker.in/gen/products/69286cf50685d8321c56a9b5c6608bf3
+i9-1190,Core i9-11900,2021.0,8,16.0,2.5,5.2,65.0,16.0,pcpricetracker.in/gen/products/c2d609abb55f57361e06e4ab4bb1014b
+i9-1190,Core i9-11900,2021.0,8,16.0,2.5,5.2,65.0,16.0,pcpricetracker.in/gen/products/c2d609abb55f57361e06e4ab4bb1014b
+i5-9600K,Core i5-9600KF,2019.0,6,6.0,3.7,4.6,95.0,9.0,pcpricetracker.in/gen/products/a4bebe9bcb819fda53dc4f51d9d82e60
+i9-1090,Core i9-10900,2020.0,10,20.0,2.8,5.2,65.0,20.0,pcpricetracker.in/gen/products/36ca991315d6e32ddddbaed7f17d13fc
+i5-1040,Core i5-10400,2020.0,6,12.0,2.9,4.3,65.0,12.0,pcpricetracker.in/gen/products/577fedecd94d772cf2d3626c3d0f5180
+i9-1090,Core i9-10900,2020.0,10,20.0,2.8,5.2,65.0,20.0,pcpricetracker.in/gen/products/36ca991315d6e32ddddbaed7f17d13fc
+i5-1160,Core i5-11600,2021.0,6,12.0,2.8,4.8,65.0,12.0,pcpricetracker.in/gen/products/7f3bc273c457d775b066f3c141f2568c
+i5-1060,Core i5-10600,2020.0,6,12.0,3.3,4.8,65.0,12.0,pcpricetracker.in/gen/products/92bae28b2a01442fbc58657ff988603f
+i3-9100F,Core i3-9100F,2019.0,4,4.0,3.6,4.2,65.0,6.0,pcpricetracker.in/gen/products/29f4a1dbce8c3895c7998b00dd534a8f
+i5-1060,Core i5-10600,2020.0,6,12.0,3.3,4.8,65.0,12.0,pcpricetracker.in/gen/products/92bae28b2a01442fbc58657ff988603f
+i5-1260,Core i5-12600K,2021.0,10,16.0,3.7,4.9,125.0,20.0,pcpricetracker.in/gen/products/843a69f76bd23e7c7ec36ba426320ed6
+i7-9700F,Core i7-9700F,2019.0,8,8.0,3.0,4.7,65.0,12.0,pcpricetracker.in/gen/products/ec6ff5ed4e6124c21468a7e9a68b258a
+i9-9900K,Core i9-9900KF,2019.0,8,16.0,3.6,5.0,95.0,16.0,pcpricetracker.in/gen/products/c4772d2a83b57c804d162423d64eca7d
+I7-8700,Core i7-8700B,2018.0,6,12.0,3.2,4.6,65.0,12.0,pcpricetracker.in/gen/products/f02a192fafae9e69402b9c280b72191f
+G5925,Celeron G5925,2020.0,2,,3.6,,4.0,,pcpricetracker.in/gen/products/ecc8cd4e07e2afaae7ab1efdf4571bf1
+i9-9920,Core i9-9920X X Series,2018.0,12,24.0,3.5,4.4,165.0,19.25,pcpricetracker.in/gen/products/baf357e4fa8d6054c28871a77da3abff
+i7-9700KF,Core i7-9700KF,2019.0,8,8.0,3.6,4.9,95.0,12.0,pcpricetracker.in/gen/products/2db4aacd3c1fb5470bea558981ecf5d9
+i7-1170,Core i7-11700,2021.0,8,16.0,2.5,4.9,65.0,16.0,pcpricetracker.in/gen/products/5161aca98609ed01705a74a9b6290813
+i5-1050,Core i5-10505,2021.0,6,12.0,3.2,4.6,65.0,12.0,pcpricetracker.in/gen/products/6f14f02ceea9ad060f813348b9a41284
+i9-1090,Core i9-10900,2020.0,10,20.0,2.8,5.2,65.0,20.0,pcpricetracker.in/gen/products/36ca991315d6e32ddddbaed7f17d13fc
+i7-1270,Core i7-12700K,2021.0,12,20.0,3.6,5.0,125.0,25.0,pcpricetracker.in/gen/products/cbd4a74d8a67a38cd5a71e978237ec43
+i9-1098,Core i9-10980HK,2020.0,8,16.0,2.4,5.3,45.0,16.0,pcpricetracker.in/gen/products/b8820d1e45d6bf61dcbdd06b10ea4de8
+i9-9900K,Core i9-9900KF,2019.0,8,16.0,3.6,5.0,95.0,16.0,pcpricetracker.in/gen/products/c4772d2a83b57c804d162423d64eca7d
+i7-1070,Core i7-10700,2020.0,8,16.0,2.9,4.8,65.0,16.0,pcpricetracker.in/gen/products/f8f6e43bf12dc425a9d70a60a91a300e
+9820,Core i9-9820X X Series,2018.0,10,20.0,3.3,4.1,165.0,16.5,pcpricetracker.in/gen/products/39380eab02e7c25b9244db8c9812610e
+i3-7100,Core i3-7100,2017.0,2,4.0,3.9,,51.0,3.0,pcpricetracker.in/gen/products/1d86fefedd099698b550d3bd41434b89
+i3-9100,Core i3-9100,2019.0,4,4.0,3.6,4.2,65.0,6.0,pcpricetracker.in/gen/products/4fa93d4bf595ca690f8b91dd72ff1bb7
+I7-4930K,Core i7-4930K,2013.0,6,12.0,3.4,3.9,130.0,12.0,pcpricetracker.in/gen/products/a7e2dda197e3634cd1a09100db0695a9
+9500,Core i5-9500,2019.0,6,6.0,3.0,4.4,65.0,9.0,pcpricetracker.in/gen/products/1a31d93de759a3643eb07b21b968bf9a
+I9-9940,Core i9-9940X X Series,2018.0,14,28.0,3.3,4.4,165.0,19.25,pcpricetracker.in/gen/products/ac05a38950f5d2f10465109b45569a94
+E5-2650,Xeon E5-2650 v4,2016.0,12,,2.2,2.9,30.0,,pcpricetracker.in/gen/products/b523a917f0b86fc99964d31d511a17c9
+7400,Core i5-7400,2017.0,4,4.0,3.0,3.5,65.0,6.0,pcpricetracker.in/gen/products/1649fc9bb0dc8545eedcf8c1e9e5a192
+i7-1070,Core i7-10700,2020.0,8,16.0,2.9,4.8,65.0,16.0,pcpricetracker.in/gen/products/f8f6e43bf12dc425a9d70a60a91a300e
+I5-1050,Core i5-10505,2021.0,6,12.0,3.2,4.6,65.0,12.0,pcpricetracker.in/gen/products/6f14f02ceea9ad060f813348b9a41284
+i3-1010,Core i3-10100Y,2021.0,2,4.0,1.3,3.9,5.0,4.0,pcpricetracker.in/gen/products/07d557d19cd94fd0d1edf488a9e0a6a9
+i9-1090,Core i9-10900,2020.0,10,20.0,2.8,5.2,65.0,20.0,pcpricetracker.in/gen/products/36ca991315d6e32ddddbaed7f17d13fc
+i3-1010,Core i3-10100Y,2021.0,2,4.0,1.3,3.9,5.0,4.0,pcpricetracker.in/gen/products/07d557d19cd94fd0d1edf488a9e0a6a9
+i3-6100,Core i3-6100,2015.0,2,4.0,3.7,,51.0,3.0,pcpricetracker.in/gen/products/691ef8370fb9764b988abb784d46297b
+i5-1060,Core i5-10600,2020.0,6,12.0,3.3,4.8,65.0,12.0,pcpricetracker.in/gen/products/92bae28b2a01442fbc58657ff988603f
+i9-1085,Core i9-10850K,2020.0,10,20.0,3.6,5.2,125.0,20.0,pcpricetracker.in/gen/products/d8e4820cfe1c0cc313cea48b91a985fb
+E5-2620,Xeon E5-2620 v4,2016.0,8,,2.1,3.0,20.0,,pcpricetracker.in/gen/products/04019c6a158bdb0e30e93d08a56a7cd8
+E5-2630,Xeon E5-2630 v4,2016.0,10,,2.2,3.1,25.0,,pcpricetracker.in/gen/products/17a2f3c6990425539a2518b74ff1f15c
+1170,Core i7-11700,2021.0,8,16.0,2.5,4.9,65.0,16.0,pcpricetracker.in/gen/products/5161aca98609ed01705a74a9b6290813
+i9-1290,Core i9-12900K,2021.0,16,24.0,3.2,5.2,125.0,30.0,pcpricetracker.in/gen/products/e72894b44a69f17425c40ffc7b6e426b
+i9-1290,Core i9-12900K,2021.0,16,24.0,3.2,5.2,125.0,30.0,pcpricetracker.in/gen/products/e72894b44a69f17425c40ffc7b6e426b
+i9-9900,Core i9-9900,2019.0,8,16.0,3.1,5.0,65.0,16.0,pcpricetracker.in/gen/products/c4772d2a83b57c804d162423d64eca7d
+i7-1270,Core i7-12700K,2021.0,12,20.0,3.6,5.0,125.0,25.0,pcpricetracker.in/gen/products/cbd4a74d8a67a38cd5a71e978237ec43
+i5-8400,Core i5-8400B,2018.0,6,6.0,2.8,4.0,65.0,9.0,pcpricetracker.in/gen/products/50d4d2b8d59cf362bd1937b199025058
+i5-1060,Core i5-10600,2020.0,6,12.0,3.3,4.8,65.0,12.0,pcpricetracker.in/gen/products/92bae28b2a01442fbc58657ff988603f
+i9-9960,Core i9-9960X X Series,2018.0,16,32.0,3.1,4.4,165.0,22.0,pcpricetracker.in/gen/products/5bea167127610a7c3483ff1745577470
+i5-1060,Core i5-10600,2020.0,6,12.0,3.3,4.8,65.0,12.0,pcpricetracker.in/gen/products/92bae28b2a01442fbc58657ff988603f
+i3-8100,Core i3-8100B,2018.0,4,4.0,3.6,,65.0,6.0,pcpricetracker.in/gen/products/2b438e1962bcde223afd91cb4c74c631
+i9-1094,Core i9-10940X X Series,2019.0,14,28.0,3.3,4.6,165.0,19.25,pcpricetracker.in/gen/products/801b52e302b6936f35a59d591b48b11a
+i7-1270,Core i7-12700K,2021.0,12,20.0,3.6,5.0,125.0,25.0,pcpricetracker.in/gen/products/cbd4a74d8a67a38cd5a71e978237ec43
+G4560,Pentium G4560,2017.0,2,,3.5,,3.0,,pcpricetracker.in/gen/products/39c2449db4480435df84ecdde1837e5f
+G6400,Pentium Gold G6400,2020.0,2,,4.0,,4.0,,pcpricetracker.in/gen/products/052b97f468539ba0a63aa36c2e701ea8
+i9-1090,Core i9-10900,2020.0,10,20.0,2.8,5.2,65.0,20.0,pcpricetracker.in/gen/products/36ca991315d6e32ddddbaed7f17d13fc
+G5900,Celeron G5900,2020.0,2,,3.4,,2.0,,pcpricetracker.in/gen/products/80ce2f69540f32a686306bbb89067c0d
+G6500,Pentium Gold G6500,2020.0,2,,4.1,,4.0,,pcpricetracker.in/gen/products/2c605f391a2bbe58804a4f9d93c43944
+i7-9700,Core i7-9700,2019.0,8,8.0,3.0,4.7,65.0,12.0,pcpricetracker.in/gen/products/b3865ca90182a629edd738b78724b228
+i7-1070,Core i7-10700,2020.0,8,16.0,2.9,4.8,65.0,16.0,pcpricetracker.in/gen/products/f8f6e43bf12dc425a9d70a60a91a300e
+i9-1090,Core i9-10900,2020.0,10,20.0,2.8,5.2,65.0,20.0,pcpricetracker.in/gen/products/36ca991315d6e32ddddbaed7f17d13fc
+I3-9350K,Core i3-9350K,2019.0,4,4.0,4.0,4.6,91.0,8.0,pcpricetracker.in/gen/products/7fb54caa2b10eb0dbc6b1a39366835eb
+G6405,Pentium Gold G6405,2021.0,2,,4.1,,4.0,,pcpricetracker.in/gen/products/426ab995014de0bcedaef5d3d21d2b89
+G5400,Pentium Gold G5400,2018.0,2,,3.7,,4.0,,pcpricetracker.in/gen/products/5a5279b8eefd36b65dbb936ddb2de1cc
+9500f,Core i5-9500F,2019.0,6,6.0,3.0,4.4,65.0,9.0,pcpricetracker.in/gen/products/88c923dbe138d9aca24ca860f3415dd8
+i5-1150,Core i5-11500,2021.0,6,12.0,2.7,4.6,65.0,12.0,pcpricetracker.in/gen/products/1a8d3a8f858cf3a8a9acfca4764391f6
+i5-1260,Core i5-12600K,2021.0,10,16.0,3.7,4.9,125.0,20.0,pcpricetracker.in/gen/products/843a69f76bd23e7c7ec36ba426320ed6
+i7-1070,Core i7-10700,2020.0,8,16.0,2.9,4.8,65.0,16.0,pcpricetracker.in/gen/products/f8f6e43bf12dc425a9d70a60a91a300e
+i9-1092,Core i9-10920X X Series,2019.0,12,24.0,3.5,4.6,165.0,19.25,pcpricetracker.in/gen/products/d27dd702ea37c56f4d9326c10f2da6c0
+I5-1260,Core i5-12600K,2021.0,10,16.0,3.7,4.9,125.0,20.0,pcpricetracker.in/gen/products/843a69f76bd23e7c7ec36ba426320ed6
+i9-1085,Core i9-10850K,2020.0,10,20.0,3.6,5.2,125.0,20.0,pcpricetracker.in/gen/products/d8e4820cfe1c0cc313cea48b91a985fb
+i3-1030,Core i3-10305,2021.0,4,8.0,3.8,4.5,65.0,8.0,pcpricetracker.in/gen/products/d09c1f244527b79cb569f4933ea5779f
+i3-9350KF,Core i3-9350KF,2019.0,4,4.0,4.0,4.6,91.0,8.0,pcpricetracker.in/gen/products/7fb54caa2b10eb0dbc6b1a39366835eb
+i3-1010,Core i3-10100Y,2021.0,2,4.0,1.3,3.9,5.0,4.0,pcpricetracker.in/gen/products/07d557d19cd94fd0d1edf488a9e0a6a9
+E5-2640,Xeon E5-2640 v4,2016.0,10,,2.4,3.4,25.0,,pcpricetracker.in/gen/products/8b51023c9efb85ca35882a4e2181667c

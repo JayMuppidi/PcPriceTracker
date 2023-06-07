@@ -1,0 +1,31 @@
+model_num,name,launch_date,num_cores,num_threads,base_clock,boost_clock,l1_cache,l2_cache,l3_cache,tdp,socket,pcie_version,pcie_lanes,mem_type,link
+5800X,AMD Ryzen™ 7 5800X,2020.0,8.0,16.0,3.8,4.7,,4.0,32.0,105.0,AM4,4.0,,DDR4,pcpricetracker.in/gen/products/7a182ce3c511a1855096383299cdb109
+3950X,AMD Ryzen™ 9 3950X,,16.0,32.0,3.5,4.7,1024.0,8.0,64.0,105.0,AM4,4.0,,DDR4,pcpricetracker.in/gen/products/d6abaa941056f19f315adf659e34da40
+3400G,AMD Ryzen™ 5 PRO 3400G,2019.0,4.0,8.0,3.7,4.2,384.0,2.0,4.0,65.0,AM4,3.0,,DDR4,pcpricetracker.in/gen/products/2990a4c867a40c4b48489e296bccf1cc
+3200G,AMD Ryzen™ 3 PRO 3200G,2019.0,4.0,4.0,3.6,4.0,384.0,2.0,4.0,65.0,AM4,3.0,,DDR4,pcpricetracker.in/gen/products/7a742f8600b1d42f982a689a5b069ccc
+2700,AMD Ryzen™ 7 PRO 2700U,2019.0,4.0,8.0,2.2,3.8,384.0,2.0,4.0,15.0,FP5,3.0,,DDR4,pcpricetracker.in/gen/products/8df117968b7c7451b7e266c39192df1b
+3600X,AMD Ryzen™ 5 3600XT,2020.0,6.0,12.0,3.8,4.5,,3.0,32.0,95.0,AM4,4.0,,DDR4,pcpricetracker.in/gen/products/9e67b1095944902ca4c79e27c020ef93
+5600X,AMD Ryzen™ 5 5600X,2020.0,6.0,12.0,3.7,4.6,,3.0,32.0,65.0,AM4,4.0,,DDR4,pcpricetracker.in/gen/products/935ab1ad74b916438c8a298c7d558221
+3800X,AMD Ryzen™ 7 3800XT,2020.0,8.0,16.0,3.9,4.7,,4.0,32.0,105.0,AM4,4.0,,DDR4,pcpricetracker.in/gen/products/8337692cb63e33f71a57658339206237
+2200G,AMD Ryzen™ 3 PRO 2200G with Radeon™ Vega 8 Graphics,2018.0,4.0,4.0,3.5,3.7,384.0,2.0,4.0,65.0,AM4,3.0,,DDR4,pcpricetracker.in/gen/products/e782e524633aa1613c85d34d8332cfe7
+3800XT,AMD Ryzen™ 7 3800XT,2020.0,8.0,16.0,3.9,4.7,,4.0,32.0,105.0,AM4,4.0,,DDR4,pcpricetracker.in/gen/products/5ce54a46670c02c1b1c83f7ecb4c19a8
+3995WX,AMD Ryzen™ Threadripper™ PRO 3995WX,2020.0,64.0,128.0,2.7,4.2,4096.0,32.0,256.0,280.0,sWRX8,4.0,,DDR4,pcpricetracker.in/gen/products/d24c987fe4dac3e6036ecad2196f940d
+3200G,AMD Ryzen™ 3 PRO 3200G,2019.0,4.0,4.0,3.6,4.0,384.0,2.0,4.0,65.0,AM4,3.0,,DDR4,pcpricetracker.in/gen/products/7a742f8600b1d42f982a689a5b069ccc
+4350G,AMD Ryzen™ 3 PRO 4350G,2020.0,4.0,8.0,3.8,4.0,256.0,2.0,4.0,65.0,AM4,3.0,,DDR4,pcpricetracker.in/gen/products/dec987ceed557a72d4d7cbc624f24364
+5700G,AMD Ryzen™ 7 5700G,2021.0,8.0,16.0,3.8,4.6,,4.0,16.0,65.0,AM4,3.0,,DDR4,pcpricetracker.in/gen/products/d5b58df3153634c998eb5b7d4e23738a
+5600G,AMD Ryzen™ 5 5600G,2021.0,6.0,12.0,3.9,4.4,,3.0,16.0,65.0,AM4,3.0,,DDR4,pcpricetracker.in/gen/products/db057152dc17593e8c4582cbe4995537
+3600XT,AMD Ryzen™ 5 3600XT,2020.0,6.0,12.0,3.8,4.5,,3.0,32.0,95.0,AM4,4.0,,DDR4,pcpricetracker.in/gen/products/0c468fd9ead448e9fa55317015a61c16
+3700X,AMD Ryzen™ 7 3700X,2019.0,8.0,16.0,3.6,4.4,512.0,4.0,32.0,65.0,AM4,4.0,16.0,DDR4,pcpricetracker.in/gen/products/564b5fca8ec48dbe861b54bd2ed18cb6
+3900X,AMD Ryzen™ 9 3900XT,2020.0,12.0,24.0,3.8,4.7,,6.0,64.0,105.0,,4.0,,DDR4,pcpricetracker.in/gen/products/d36b519604a42a96300fb4cda271dca2
+3700X,AMD Ryzen™ 7 3700X,2019.0,8.0,16.0,3.6,4.4,512.0,4.0,32.0,65.0,AM4,4.0,16.0,DDR4,pcpricetracker.in/gen/products/564b5fca8ec48dbe861b54bd2ed18cb6
+2600X,AMD Ryzen™ 5 2600X,2018.0,6.0,12.0,3.6,4.2,576.0,3.0,16.0,95.0,AM4,3.0,16.0,DDR4,pcpricetracker.in/gen/products/a1d14f61222832585a4d390db74052cb
+3800X,AMD Ryzen™ 7 3800XT,2020.0,8.0,16.0,3.9,4.7,,4.0,32.0,105.0,AM4,4.0,,DDR4,pcpricetracker.in/gen/products/8337692cb63e33f71a57658339206237
+3100,AMD Ryzen™ 3 3100,2020.0,4.0,8.0,3.6,3.9,256.0,2.0,16.0,65.0,AM4,4.0,,DDR4,pcpricetracker.in/gen/products/d11f42b93ccb4b50a5cf2b07518b5f7e
+3100,AMD Ryzen™ 3 3100,2020.0,4.0,8.0,3.6,3.9,256.0,2.0,16.0,65.0,AM4,4.0,,DDR4,pcpricetracker.in/gen/products/d11f42b93ccb4b50a5cf2b07518b5f7e
+2700X,AMD Ryzen™ 7 2700X,2018.0,8.0,16.0,3.7,4.3,768.0,4.0,16.0,105.0,AM4,3.0,16.0,DDR4,pcpricetracker.in/gen/products/8df117968b7c7451b7e266c39192df1b
+3900XT,AMD Ryzen™ 9 3900XT,2020.0,12.0,24.0,3.8,4.7,,6.0,64.0,105.0,,4.0,,DDR4,pcpricetracker.in/gen/products/af38fdee6af3902c9c89838a51049ceb
+4650G,AMD Ryzen™ 5 PRO 4650G,2020.0,6.0,12.0,3.7,4.2,384.0,3.0,8.0,65.0,AM4,3.0,,DDR4,pcpricetracker.in/gen/products/b832bf8eb22b123911e556d55938ba6d
+3955WX,AMD Ryzen™ Threadripper™ PRO 3955WX,2020.0,16.0,32.0,3.9,4.3,1024.0,8.0,64.0,280.0,sWRX8,4.0,,DDR4,pcpricetracker.in/gen/products/971c888d79a7cdfeec414569d5126851
+2200G,AMD Ryzen™ 3 PRO 2200G with Radeon™ Vega 8 Graphics,2018.0,4.0,4.0,3.5,3.7,384.0,2.0,4.0,65.0,AM4,3.0,,DDR4,pcpricetracker.in/gen/products/e782e524633aa1613c85d34d8332cfe7
+2600,AMD Ryzen™ 5 2600H,2018.0,4.0,8.0,3.2,3.6,192.0,2.0,4.0,45.0,FP5,3.0,,DDR4,pcpricetracker.in/gen/products/523103c1169d58719fede4f3d22ef3d9
+3975WX,AMD Ryzen™ Threadripper™ PRO 3975WX,2020.0,32.0,64.0,3.5,4.2,2048.0,16.0,128.0,280.0,sWRX8,4.0,,DDR4,pcpricetracker.in/gen/products/bf0b4c9b477c0f638251156ccfe7241a

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monitors</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <script src="monitor.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="mainpage.html">PCPriceTracker</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="processor.html">Processor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="monitor.html">Monitor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="memory.html">Memory</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <body>
+    <div class="container-fluid" style="margin-top: 20px; margin-left: 20px">
+      <div class="row">
+        <div class="col-md-3 col-sm-12">
+          <h4>Filters</h4>
+          <form>
+            <div class="col-md-5">
+              <div class="form-group">
+                <label>Filter by Brand:</label>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value="allBrands"
+                      id="allBrands"
+                    />
+                    All Brands
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="brand"
+                      value="LG"
+                      id="LG"
+                    />
+                    LG
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="brand"
+                      value="HP"
+                      id="HP"
+                    />
+                    HP
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="brand"
+                      value="Acer"
+                      id="Acer"
+                    />
+                    Acer
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="brand"
+                      value="Samsung"
+                      id="Samsung"
+                    />
+                    Samsung
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="brand"
+                      value="Dell"
+                      id="Dell"
+                    />
+                    Dell
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="brand"
+                      value="Benq"
+                      id="Benq"
+                    />
+                    Benq
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="brand"
+                      value="Asus"
+                      id="Asus"
+                    />
+                    Asus
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="brand"
+                      value="Viewsonic"
+                      id="Viewsonic"
+                    />
+                    Viewsonic
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="brand"
+                      value="Gigabyte"
+                      id="Gigabyte"
+                    />
+                    Gigabyte
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="brand"
+                      value="MSI"
+                      id="MSI"
+                    />
+                    MSI
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="brand"
+                      value="AOC"
+                      id="AOC"
+                    />
+                    AOC
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="form-group">
+                <label for="size">Size</label>
+                <div class="row">
+                  <div class="col">
+                    <div class="input-group">
+                      <input
+                        type="number"
+                        placeholder="15 "
+                        value="15"
+                        class="form-control"
+                        id="lowerSize"
+                      />
+                      <div class="input-group-append">
+                        <span class="input-group-text">in</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <h5 class="text-muted my-2">-</h5>
+                  </div>
+                  <div class="col">
+                    <div class="input-group">
+                      <input
+                        type="number"
+                        placeholder="50 "
+                        value="50"
+                        class="form-control"
+                        id="upperSize"
+                      />
+                      <div class="input-group-append">
+                        <span class="input-group-text">in</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="form-group">
+                <label for="size">Model Year</label>
+                <div class="row">
+                  <div class="col">
+                    <div class="input-group">
+                      <input
+                        type="number"
+                        placeholder="2018 "
+                        value="2018"
+                        class="form-control"
+                        id="lowerYear"
+                        step="1"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <h5 class="text-muted my-2">-</h5>
+                  </div>
+                  <div class="col">
+                    <div class="input-group">
+                      <input
+                        type="number"
+                        step="1"
+                        placeholder="2023"
+                        value="2023"
+                        class="form-control"
+                        id="upperYear"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-10">
+              <div class="form-group">
+                <label for="size">Brightness</label>
+                <div class="row">
+                  <div class="col">
+                    <div class="input-group">
+                      <input
+                        type="number"
+                        placeholder="200 "
+                        value="200"
+                        class="form-control"
+                        id="lowerBrightness"
+                      />
+                      <div class="input-group-append">
+                        <span class="input-group-text">cs/m<sup>2</sup></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <h5 class="text-muted my-2">-</h5>
+                  </div>
+                  <div class="col">
+                    <div class="input-group">
+                      <input
+                        type="number"
+                        placeholder="500 "
+                        value="500"
+                        class="form-control"
+                        id="upperBrightness"
+                      />
+                      <div class="input-group-append">
+                        <span class="input-group-text">cs/m<sup>2</sup></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              onclick="{displayMonitors(submit_data())}"
+              type="button"
+              class="btn btn-primary"
+              id="filterBtn"
+            >
+              Filter
+            </button>
+          </form>
+        </div>
+        <div class="col-md-9 col-sm-12">
+          <h4>Monitors</h4>
+          <form>
+            <div class="form-group row">
+              <div class="col-md-8">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search for a monitor"
+                  id="searchBar"
+                />
+              </div>
+              <div class="col-md-2">
+                <button
+                  type="button"
+                  onclick="clearSearchBar()"
+                  class="btn btn-primary btn-block"
+                  id="Clear"
+                >
+                  Clear
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <div id="monitorsList" style="margin-right: 50px">
+            <h1 class="text-center">Monitors</h1>
+            <div id="loader">
+              <div id="loading" class="text-center my-5">
+                <div class="spinner-border text-primary" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
+            </div>
+            <table class="table table-hover">
+              <thead>
+                <tr style="cursor: pointer">
+                  <th id="sortButton0" width = "5%" scope="col" onclick="sortTable(0)">
+                    Company
+                  </th>
+                  <th id="sortButton1" width = "10%" scope="col" onclick="sortTable(1)">
+                    Name
+                  </th>
+                  <th id="sortButton2" scope="col" onclick="sortTable(2)">
+                    Model Id
+                  </th>
+                  <th id="sortButton3" scope="col" onclick="sortTable(3)">
+                    Resolution
+                  </th>
+                  <th id="sortButton4" scope="col" onclick="sortTable(4)">
+                    Model Year
+                  </th>
+                  <th id="sortButton5" scope="col" onclick="sortTable(5)">
+                    Size Class
+                  </th>
+                  <th id="sortButton6" scope="col" onclick="sortTable(6)">
+                    Pixel Pitch
+                  </th>
+                  <th id="sortButton7" scope="col" onclick="sortTable(7)">
+                    Diagonal
+                  </th>
+                  <th id="sortButton8" scope="col" onclick="sortTable(8)">
+                    Brightness
+                  </th>
+                </tr>
+              </thead>
+              <tbody id="monitorList"></tbody>
+            </table>
+          </div>
+         
+          <div
+            id="errorMessage"
+            style="
+              position: absolute;
+              margin-top: 30px;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              display: none;
+            "
+          >
+            <h4>Sorry unknown error</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.2/rangeslider.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.2/rangeslider.min.js"></script>
+  </body>
+</html>

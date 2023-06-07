@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="processor.js"></script>
+    <title>Processors</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="mainpage.html">PCPriceTracker</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="processor.html">Processor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="monitor.html">Monitor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="memory.html">Memory</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <body>
+    <div class="container-fluid" style="margin-top: 20px; margin-left: 20px">
+      <div class="row">
+        <div class="col-md-3 col-sm-12">
+          <h4>Filters</h4>
+          <form>
+            <div class="form-group">
+              <label for="processorBrand">Brand</label>
+              <select class="form-control" id="processorBrand">
+                <option>All</option>
+                <option>Intel</option>
+                <option>AMD</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="Cores"> Number of Cores:</label>
+              <div class="row">
+                <div class="col">
+                  <input
+                    type="number"
+                    placeholder="0"
+                    value="0"
+                    class="form-control"
+                    id="lowerCoreNum"
+                  />
+                </div>
+                <h5 class="text-muted my-2">-</h5>
+                <div class="col">
+                  <input
+                    type="number"
+                    placeholder="64 "
+                    value="64"
+                    class="form-control"
+                    id="upperCoreNum"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="baseClock">Base Clock:</label>
+              <div class="row">
+                <div class="col">
+                  <div class="input-group">
+                    <input
+                      type="number"
+                      placeholder="0 "
+                      value="0"
+                      class="form-control"
+                      id="lowerBaseClock"
+                    />
+                    <div class="input-group-append">
+                      <span class="input-group-text">GHz</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <h5 class="text-muted my-2">-</h5>
+                </div>
+                <div class="col">
+                  <div class="input-group">
+                    <input
+                      type="number"
+                      placeholder="4.2 "
+                      value="4.2"
+                      class="form-control"
+                      id="upperBaseClock"
+                    />
+                    <div class="input-group-append">
+                      <span class="input-group-text">GHz</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              onclick="{displayProcessors(submit_data())}"
+              type="button"
+              class="btn btn-primary"
+              id="filterBtn"
+            >
+              Filter
+            </button>
+          </form>
+        </div>
+        <div class="col-md-9 col-sm-12">
+          <h4>Processors</h4>
+          <form>
+            <div class="form-group row">
+              <div class="col-md-8">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search for a processor"
+                  id="searchBar"
+                />
+              </div>
+              <div class="col-md-2">
+                <button
+                  type="button"
+                  onclick="clearSearchBar()"
+                  class="btn btn-primary btn-block"
+                  id="Clear"
+                >
+                  Clear
+                </button>
+              </div>
+            </div>
+          </form>
+          <div id="processorsList"  style="margin-right: 50px;" >
+            
+              <h1 class="text-center">Processors</h1>
+              <table class="table table-hover">
+                <thead>
+                  <tr style="cursor: pointer;">
+                    <th scope="col" id ="sortButton0"onclick="sortTable(0)">Company</th>
+                    <th scope="col" width = "20%" id ="sortButton1"onclick="sortTable(1)">Name</th>
+                    <th scope="col" id ="sortButton2"onclick="sortTable(2)">Base Clock</th>
+                    <th scope="col" id ="sortButton3"onclick="sortTable(3)">Cache</th>
+                    <th scope="col" id ="sortButton4"onclick="sortTable(4)">Cores</th>
+                    <th scope="col" id ="sortButton5"onclick="sortTable(5)">L1 Cache</th>
+                    <th scope="col" id ="sortButton6"onclick="sortTable(6)">L2 Cache</th>
+                    <th scope="col" id ="sortButton7"onclick="sortTable(7)">L3 Cache</th>
+                    <th scope="col" id ="sortButton8"onclick="sortTable(8)">Socket</th>
+                    <th scope="col" id ="sortButton9"onclick="sortTable(9)">Launch Date</th>
+                    <th scope="col" id ="sortButton10"onclick="sortTable(10)">Memory Type</th>
+                  </tr>
+                </thead>
+                <tbody id="processorList">
+                  
+
+                </tbody>
+              </table>
+            
+            <div id="loader">
+              <div id="loading" class="text-center my-5">
+                <div class="spinner-border text-primary" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
+            </div>
+            <div id="errorMessage" style="position: absolute; margin-top: 30px; left: 50%; transform: translate(-50%, -50%); display:none">
+                  <h4>Sorry unknown error</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
